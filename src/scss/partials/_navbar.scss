@@ -1,0 +1,37 @@
+.navbar-container {
+    align-items: center;
+    background: none;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.navbar-links {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20px 0 0;
+    width: 25%;
+    a {
+        color: #495057;
+        font-size: 1.5rem;
+        letter-spacing: 1.5px;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+}
+.navbar-logo {
+    padding-left: 12px;
+}
+.navbar-image {
+    height: 75px;
+    margin: 30px;
+    width: 75px;
+}
+
+.current {
+    border-bottom: 2px solid #343a40;
+}
